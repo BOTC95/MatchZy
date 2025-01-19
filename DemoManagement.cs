@@ -42,6 +42,7 @@ namespace MatchZy
                 string tempDemoPath = demoPath == "" ? demoFileName : demoPath + demoFileName;
                 activeDemoFile = tempDemoPath;
                 Log($"[StartDemoRecoding] Starting demo recording, path: {tempDemoPath}");
+                //Demo record
                 //Server.ExecuteCommand($"tv_record {tempDemoPath}");
                 isDemoRecording = true;
             }
